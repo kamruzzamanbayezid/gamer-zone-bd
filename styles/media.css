@@ -1,0 +1,89 @@
+/* MOBILE DEVICE */
+@media screen and (max-width: 576px) {
+
+    /* HEADER SECTION */
+    .menu-container,
+    .menu-content {
+        flex-direction: column;
+    }
+
+    .menu-icon {
+        width: 100%;
+        justify-content: center;
+        margin: 60px 0 40px;
+    }
+
+    .menu-content {
+        width: 100%;
+    }
+
+    /* BANNER SECTION */
+    .banner-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 55px;
+        padding: 10px;
+    }
+
+    .banner-content {
+        width: 100%;
+        padding: 80px 0px;
+        background-image: url("../images/Group-14.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+
+    /* SECTION 5 | Games items*/
+
+    .games-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+/* TABLET / MEDIUM DEVICE */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    /* HEADER SECTION */
+    .menu-container,
+    .menu-content {
+        flex-direction: column;
+    }
+
+    .menu-icon {
+        width: 100%;
+        justify-content: center;
+        margin: 30px 0;
+    }
+
+    .menu-content {
+        width: 100%;
+    }
+
+    /* BANNER SECTION */
+    .banner-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 55px;
+        padding: 15px;
+    }
+
+    .banner-content {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+}
