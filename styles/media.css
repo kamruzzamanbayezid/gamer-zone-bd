@@ -34,6 +34,10 @@
         background-size: cover;
     }
 
+    .banner-content .banner-btn2{
+        margin-left: 0px;
+    }
+
     .banner-img {
         width: 100%;
     }
@@ -120,7 +124,9 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    
+    footer{
+        padding: 20px;
+    }
 
 }
 
