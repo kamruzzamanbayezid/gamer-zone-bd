@@ -329,6 +329,7 @@ header {
 
 /* Finally My Last section FOOTER */
 footer {
+
     background-color: #0B0223;
     padding: 120px 0;
 }
@@ -340,7 +341,7 @@ footer {
     justify-content: center;
 }
 
-.footer-icon {
+.footer-logo {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -365,9 +366,15 @@ footer {
 
 .footer-icon {
     margin-top: 60px;
-    display: flex;
     gap: 40px;
     margin-bottom: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
 }
 
 .footer-terms {

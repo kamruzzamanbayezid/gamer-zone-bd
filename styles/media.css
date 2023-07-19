@@ -105,6 +105,16 @@
         font-size: .6em;
     }
 
+
+    /* FOOTER SECTION  */
+
+    .footer-description,
+    .footer-icon
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
 
 
@@ -199,5 +209,7 @@
     .games-item .games-item-name {
         font-size: .6em;
     }
+
+
 
 }
