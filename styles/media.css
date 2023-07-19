@@ -51,41 +51,59 @@
 
     /* THIRD ANNIVERSARY SECTION CSS */
 
-    .third-annivarsary-section-container{
+    .third-annivarsary-section-container {
         flex-direction: column;
     }
 
     .anniversary-content {
         width: 100%;
-        padding: 0;
         text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 
     .anniversary-poster {
         width: 100%;
-        padding: 0;
     }
 
-    .poster-img{
-        width: 100%;
+    .poster-card {
+        width: 150px;
     }
 
-    .poster-card{
-        width: 100%;
+    .poster-img {
+        margin-left: 70px;
+        max-width: 80%;
+        object-fit: cover;
+    }
+
+    /* GAMES CONTAINER SECTION START FROM HERE */
+
+    .games-item img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .games-item .games-item-name {
+        font-size: .6em;
     }
 
 
-    /* SECTION 5 | Games items*/
 
-    /* .games-container{
+    /* GAMES CONTAINER SECTION START FROM HERE */
+
+    .games-container {
         display: grid;
-        grid-template-columns: repeat(3, 100px);
+        grid-template-columns: repeat(3, 1fr);
     }
 
-    .games-item img{
-        width: 50%;
-        margin: 0 auto;
-    } */
+    .games-item img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .games-item .games-item-name {
+        font-size: .6em;
+    }
 
 }
 
@@ -135,6 +153,51 @@
 
     .online-games-container {
         margin-top: 40px;
+    }
+
+
+    /* THIRD ANNIVERSARY SECTION CSS */
+
+    .third-annivarsary-section-container {
+        flex-direction: column;
+    }
+
+    .anniversary-content {
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .anniversary-poster {
+        width: 100%;
+    }
+
+    .poster-card {
+        width: 150px;
+    }
+
+    .poster-img {
+        margin-left: 70px;
+        max-width: 80%;
+        object-fit: cover;
+    }
+
+
+    /* GAMES CONTAINER SECTION START FROM HERE */
+
+    .games-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .games-item img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .games-item .games-item-name {
+        font-size: .6em;
     }
 
 }
