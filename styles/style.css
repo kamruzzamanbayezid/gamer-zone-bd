@@ -15,7 +15,7 @@ body {
     margin: 0 auto;
 }
 
-span {
+.menu-span {
     background-image: linear-gradient(#FF42A5 0%, #FF42A5 100%);
     color: transparent;
     -webkit-background-clip: text;
@@ -156,7 +156,126 @@ header {
 
 /* CSS FOR HEADER SECTION END HERE */
 
+/* ONLINE GAMES SECTION CSS START FROM HERE */
 
+.online-games-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.online-games-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.online-games-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.funny-video {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.games-img-description {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.online-games-items {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.online-games-img {
+    max-width: 21.375rem;
+    height: 25rem;
+}
+
+/* ONLINE GAMES SECTION CSS END HERE */
+
+
+/* 3rd Anniversary SECTION START FROM HERE */
+
+.third-annivarsary-section-container {
+    max-width: 1440px;
+    margin: 100px auto 200px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+
+}
+
+.play-instant {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.anniversary-content {
+    width: 50%;
+    border: 1px solid green;
+    text-align: end;
+    padding-right: 150px;
+    padding-left: 200px;
+}
+
+.anniversary-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.anniversary-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.anniversary-poster {
+    width: 50%;
+    border: 1px solid yellow;
+    position: relative;
+}
+
+.poster-img {
+    max-width: 634px;
+    max-height: 650px;
+    margin-left: 83px;
+}
+
+
+.poster-card {
+    max-width: 318px;
+    max-height: 365px;
+    position: absolute;
+    left: -13px;
+    bottom: -13%;
+}
+
+/* 3rd Anniversary SECTION START FROM HERE */
+
+
+
+
+
+
+
+
+
+/* SECTION 3 CSS START FROM HERE */
+
+
+/* SECTION 3 CSS END HERE */
 
 
 /* SECTION 5 CSS START FROM HERE */
@@ -165,13 +284,17 @@ header {
     max-width: 1440px;
     margin: 100px auto;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-
     display: flex;
     flex-wrap: wrap;
     gap: 34px;
     justify-content: center;
     align-content: center;
 }
+
+/* .games-item img{
+    max-width: 60px;
+    max-height: 60px;
+} */
 
 .games-item {
     display: flex;
@@ -199,6 +322,12 @@ header {
     font-size: 20px;
     font-weight: 600;
 }
+
+/* .games-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
 
 
 

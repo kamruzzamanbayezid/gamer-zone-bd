@@ -39,12 +39,53 @@
     }
 
 
+    /* ONLINE GAMES SECTION CSS START FROM HERE */
+    .online-games-items {
+        flex-direction: column;
+    }
+
+    .online-games-container {
+        margin-top: 40px;
+    }
+
+
+    /* THIRD ANNIVERSARY SECTION CSS */
+
+    .third-annivarsary-section-container{
+        flex-direction: column;
+    }
+
+    .anniversary-content {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .anniversary-poster {
+        width: 100%;
+        padding: 0;
+    }
+
+    .poster-img{
+        width: 100%;
+    }
+
+    .poster-card{
+        width: 100%;
+    }
+
+
     /* SECTION 5 | Games items*/
 
-    .games-container{
+    /* .games-container{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 100px);
     }
+
+    .games-item img{
+        width: 50%;
+        margin: 0 auto;
+    } */
 
 }
 
@@ -84,6 +125,16 @@
 
     .banner-img {
         width: 100%;
+    }
+
+    /* ONLINE GAMES SECTION CSS START FROM HERE */
+    .online-games-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .online-games-container {
+        margin-top: 40px;
     }
 
 }
