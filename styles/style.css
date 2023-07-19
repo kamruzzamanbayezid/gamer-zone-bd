@@ -156,6 +156,8 @@ header {
 
 /* CSS FOR HEADER SECTION END HERE */
 
+
+
 /* ONLINE GAMES SECTION CSS START FROM HERE */
 
 .online-games-container {
@@ -231,6 +233,7 @@ header {
     overflow: hidden;
 }
 
+
 .games-img-description {
     margin-top: 16px;
 }
@@ -251,6 +254,8 @@ header {
 }
 
 /* ONLINE GAMES SECTION CSS END HERE */
+
+
 
 
 /* 3rd Anniversary SECTION START FROM HERE */
@@ -313,18 +318,6 @@ header {
 
 
 
-
-
-
-
-
-
-/* SECTION 3 CSS START FROM HERE */
-
-
-/* SECTION 3 CSS END HERE */
-
-
 /* GAMES CONTAINER SECTION START FROM HERE */
 .games-container {
     max-width: 1440px;
@@ -337,10 +330,6 @@ header {
     align-content: center;
 }
 
-/* .games-item img{
-    max-width: 60px;
-    max-height: 60px;
-} */
 
 .games-item {
     display: flex;
@@ -368,12 +357,6 @@ header {
     font-weight: 600;
 }
 
-
-
-
-
-
-/* SECTION 5 CSS END HERE */
 
 
 /* Finally My Last section FOOTER */

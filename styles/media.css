@@ -72,6 +72,7 @@
 
     .poster-card {
         width: 150px;
+        left: 1%;
     }
 
     .poster-img {
@@ -117,16 +118,19 @@
     {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
     }
 
     .footer-terms{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
 
     footer{
         padding: 20px;
     }
+
 
 }
 
@@ -197,7 +201,10 @@
     }
 
     .poster-card {
-        width: 150px;
+        width: 250px;
+        position: absolute;
+        top: 70%;
+        left: 1%;
     }
 
     .poster-img {
