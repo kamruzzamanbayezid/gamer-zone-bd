@@ -34,7 +34,7 @@
         background-size: cover;
     }
 
-    .banner-content .banner-btn2{
+    .banner-content .banner-btn2 {
         margin-left: 0px;
     }
 
@@ -114,21 +114,24 @@
     /* FOOTER SECTION  */
 
     .footer-description,
-    .footer-icon
-    {
+    .footer-icon {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 25px;
     }
 
-    .footer-terms{
+    .footer-terms {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
 
-    footer{
+    footer {
         padding: 20px;
+    }
+
+    .footer-icon {
+        padding-left: 50px;
     }
 
 
@@ -228,6 +231,31 @@
 
     .games-item .games-item-name {
         font-size: .6em;
+    }
+
+
+    /* FOOTER SECTION */
+
+
+    .footer-description,
+    .footer-icon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    .footer-terms {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .footer-icon {
+        padding-left: 120px;
     }
 
 
