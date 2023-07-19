@@ -202,7 +202,7 @@ header {
     height: 25rem;
 }
 
-/* .online-games-button .img-overlay {
+.online-games-button .img-overlay {
     border-radius: 16px;
     background-color: rgba(0, 0, 0, .7);
     position: absolute;
@@ -215,21 +215,21 @@ header {
     align-items: center;
     transition: .5s ease-in-out .1s;
 
-} */
+}
 
-/* .online-games-button:hover .img-overlay{
+.online-games-button:hover .img-overlay{
     top: 0;
-} */
+}
 
 .btn-img {
     margin-bottom: 16px;
     cursor: pointer;
 }
 
-/* .online-games-button {
+.online-games-button {
     position: relative;
     overflow: hidden;
-} */
+}
 
 .games-img-description {
     margin-top: 16px;
