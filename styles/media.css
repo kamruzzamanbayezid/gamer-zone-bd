@@ -99,11 +99,18 @@
     .games-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
     }
 
     .games-item img {
         width: 30px;
         height: 30px;
+    }
+
+    .games-item{
+        max-width: 80%;
+        margin: 0 auto;
+        max-height: 60px;
     }
 
     .games-item .games-item-name {
