@@ -11,7 +11,7 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    max-width: 1920px;
+    /* max-width: 1920px; */
     margin: 0 auto;
 }
 
@@ -328,22 +328,62 @@ header {
 
 
 /* Finally My Last section FOOTER */
-footer{
-
-    
-
-}
-.footer-container{
-    
+footer {
+    background-color: #0B0223;
+    padding: 120px 0;
 }
 
-.footer-icon{
-    margin-bottom: 60px;
-}
-.footer-description{
+.footer-container {
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
+    justify-content: center;
 }
 
-.footer-description p{
+.footer-icon {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+    gap: 20px;
+}
 
+.footer-description {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 56px;
+}
+
+.footer-icon {
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 70px;
+}
+
+.footer-terms {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 60px;
+}
+
+.footer-para {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 28px;
 }
